@@ -6,7 +6,7 @@ metadata:
     name: wil-playground
 spec:
   ports:
-    - port: 80
-      targetPort: 80
+    - port: 8888
+      targetPort: 8888
   selector:
     app: wil-playground
